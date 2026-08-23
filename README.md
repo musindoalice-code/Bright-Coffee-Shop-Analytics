@@ -1,111 +1,103 @@
-# Bright-Coffee-Shop-Analytics
-This project analyses Bright Coffee Shop's transactional sales data to transform raw business data into actionable insights for executive decision-making
-# ☕ Bright Coffee Shop | CEO Sales & Performance Analytics
+# ☕ Bright Coffee Shop Analytics
 
-| Deliverable              | Platform        | Access                    |
-| ------------------------ | --------------- | ------------------------- |
-| 📊 Executive Dashboard   | Microsoft Excel | 📁 View in Repository     |
-| 📈 Interactive Dashboard | Power BI        | 🔗 Add Power BI link      |
-| 🌐 Web Dashboard         | Looker Studio   | 🔗 Add Looker Studio link |
-| ✨ Analytics App          | Lovable         | 🔗 Add Lovable link       |
-| 🎤 Executive Summary     | PowerPoint      | 📁 View Presentation      |
+## End-to-End Sales Analytics for Executive Decision-Making
 
-## 📊 Executive Dashboard & Business Intelligence Project
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Excel](https://img.shields.io/badge/Excel-Analytics-green)
+![Power%20BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
+![SQL](https://img.shields.io/badge/SQL-Data%20Analysis-blue)
+![Looker%20Studio](https://img.shields.io/badge/Looker%20Studio-Dashboard-orange)
 
-### 🔗 Project Overview
-
-This project analyses **Bright Coffee Shop's transactional sales data** to transform raw business data into actionable insights for executive decision-making.
-
-The objective was to answer key CEO-level business questions around **revenue performance, product demand, store performance, customer purchasing behaviour, and operational peak periods**.
-
-Using Excel, data analysis techniques, and interactive dashboard design, I developed a CEO-focused reporting solution that tells a clear business story:
-
-> **Performance → Growth → Business Drivers → Action**
-
----# 📑 Table of Contents
-
-* [📊 Project Overview](#-project-overview)
-* [🎯 Business Objective](#-business-objective)
-* [📁 Project Structure](#-project-structure)
-* [📂 Dataset Overview](#-dataset-overview)
-* [🛠️ Tools & Skills Demonstrated](#️-tools--skills-demonstrated)
-* [📊 Dashboard Structure](#-dashboard-structure)
-
-  * [1️⃣ Executive Overview](#1️⃣-executive-overview)
-  * [2️⃣ Product Performance](#2️⃣-product-performance)
-  * [3️⃣ Time & Operations](#3️⃣-time--operations)
-* [💡 Key Business Insights](#-key-business-insights)
-* [🚀 Strategic Recommendations](#-strategic-recommendations)
-* [📈 CEO Dashboard Storytelling Framework](#-ceo-dashboard-storytelling-framework)
-* [📸 Dashboard Preview](#-dashboard-preview)
-* [📌 Key KPIs](#-key-kpis)
-* [🔍 Analytical Approach](#-analytical-approach)
-* [🧠 What I Learned](#-what-i-learned)
-* [🚀 Future Improvements](#-future-improvements)
-* [👩‍💻 Author](#-author)
-
-
-## 🎯 Business Objective
-
-The CEO needs a clear understanding of the company's performance and the key factors driving revenue growth.
-
-This analysis focuses on answering the following questions:
-
-* 💰 How much revenue is the business generating?
-* 📈 How is revenue changing over time?
-* 🏪 Which stores are performing best?
-* ☕ Which products and categories generate the most revenue?
-* 🕒 When are customers most likely to make purchases?
-* 📦 What operational opportunities can improve sales and efficiency?
-
-The final output is an interactive CEO dashboard designed to support faster and more informed business decisions.
+> **Turning transactional sales data into actionable insights, interactive dashboards, and strategic recommendations for business decision-making.**
 
 ---
 
-# 📁 Bright Coffee Shop Analytics: From Raw Data to CEO Insights
-☕ Bright Coffee Shop Analytics
+## 📊 Project Overview
 
-| Deliverable           | Purpose                                |
-| --------------------- | -------------------------------------- |
-| 📊 Excel Dashboard    | Interactive business analysis          |
-| 📈 Power BI Dashboard | Advanced BI reporting                  |
-| 🌐 Looker Studio      | Web-based interactive reporting        |
-| ✨ Lovable Dashboard   | Modern analytics experience            |
-| 🎤 CEO Presentation   | Executive insights and recommendations |
+Bright Coffee Shop Analytics is an **end-to-end data analytics project** that analyses transactional sales data to understand business performance, identify key revenue drivers, and provide actionable recommendations for executive decision-making.
 
+The project demonstrates the complete data analytics journey—from understanding the business problem and exploring the data to analysing performance, building interactive dashboards, and communicating findings to senior stakeholders.
 
-A comprehensive end-to-end data analytics project analysing sales performance and delivering insights to support executive decision-making.
-│
-├── 📄 README.md
-│
-├── 📁 Data
-│   └── Bright_Coffee_Dataset.xlsx
-│
-├── 📁 Excel_Dashboard
-│   └── Bright_Coffee_CEO_Dashboard.xlsx
-│
-├── 📁 PowerBI_Dashboard
-│   └── Bright_Coffee_Dashboard.pbix
-│
-├── 📁 Looker_Studio
-│   └── README.md or Dashboard_Link.txt
-│
-├── 📁 Lovable_Dashboard
-│   └── README.md or Dashboard_Link.txt
-│
-├── 📁 Presentation
-│   └── Bright_Coffee_CEO_Presentation.pptx
-│
-├── 📁 SQL
-│   └── Bright_Coffee_Analysis.sql
-│
-└── 📁 Images
-    ├── Excel_Dashboard.png
-    ├── PowerBI_Dashboard.png
-    ├── Looker_Studio_Dashboard.png
-    ├── Lovable_Dashboard.png
-    └── CEO_Presentation.png
-```
+Rather than creating a single dashboard, this project presents the analysis through multiple professional deliverables:
+
+📊 **Excel Dashboard** | 📈 **Power BI Dashboard** | 🌐 **Looker Studio Dashboard** | ✨ **Lovable Analytics Experience** | 🎤 **CEO Executive Presentation**
+
+> **One business problem → One dataset → One analytical story → Multiple decision-making tools**
+
+---
+
+# 🔗 Explore the Project
+
+| Deliverable               | Platform                    | Purpose                                               | Access                          |
+| ------------------------- | --------------------------- | ----------------------------------------------------- | ------------------------------- |
+| 📊 Executive Dashboard    | Microsoft Excel             | Interactive business performance analysis             | 📁 Available in this repository |
+| 📈 BI Dashboard           | Power BI                    | Advanced interactive business intelligence            | 📁 Available in this repository |
+| 🌐 Web Dashboard          | Looker Studio / Data Studio | Shareable web-based reporting                         | 🔗 Add live dashboard link      |
+| ✨ Analytics Experience    | Lovable                     | Modern interactive data storytelling                  | 🔗 Add live dashboard link      |
+| 🎤 Executive Presentation | PowerPoint                  | Insights and strategic recommendations for leadership | 📁 Available in this repository |
+
+> **Note:** Replace the 🔗 placeholder text with your live dashboard links once you are ready to share them publicly.
+
+---
+
+# 📑 Table of Contents
+
+* [📊 Project Overview](#-project-overview)
+* [🔗 Explore the Project](#-explore-the-project)
+* [🎯 Business Problem](#-business-problem)
+* [🎯 Executive Decision Support](#-executive-decision-support)
+* [📂 Dataset Overview](#-dataset-overview)
+* [🛠️ Tools & Technologies](#️-tools--technologies)
+* [🔍 Analytics Workflow](#-analytics-workflow)
+* [🌐 Dashboard & Deliverables Portfolio](#-dashboard--deliverables-portfolio)
+* [💡 Key Business Insights](#-key-business-insights)
+* [🚀 Strategic Recommendations](#-strategic-recommendations)
+* [📈 From Data to Decision](#-from-data-to-decision)
+* [📁 Project Structure](#-project-structure)
+* [🧠 Skills Demonstrated](#-skills-demonstrated)
+* [🔮 Future Improvements](#-future-improvements)
+* [👩‍💻 About the Analyst](#-about-the-analyst)
+
+---
+
+# 🎯 Business Problem
+
+Bright Coffee Shop needs to understand its sales performance and the key factors driving business growth.
+
+The analysis was designed to answer important business questions, including:
+
+* 💰 How much revenue is the business generating?
+* 📈 How is business performance changing over time?
+* 🏪 Which store locations are performing best?
+* ☕ Which products and categories are the strongest revenue drivers?
+* 🕒 When are the busiest customer purchasing periods?
+* 📦 Where are the opportunities to improve operational efficiency and revenue?
+
+The goal is not simply to report historical numbers, but to transform data into insights that can support **better business decisions**.
+
+---
+
+# 🎯 Executive Decision Support
+
+The CEO and leadership team require a clear understanding of overall business performance and the factors influencing revenue growth.
+
+This project supports executive decision-making by translating transactional data into meaningful insights and recommendations.
+
+The analysis focuses on three key areas:
+
+### 1️⃣ Business Performance
+
+Understanding overall revenue, sales volume, and performance trends.
+
+### 2️⃣ Business Drivers
+
+Identifying the stores, products, categories, and customer behaviours contributing to performance.
+
+### 3️⃣ Business Actions
+
+Turning analytical findings into practical recommendations for improving growth and operational efficiency.
+
+> **The CEO is the primary stakeholder—not a separate analytics project.** The dashboards and presentation are different ways of communicating the same analytical story.
 
 ---
 
@@ -113,229 +105,283 @@ A comprehensive end-to-end data analytics project analysing sales performance an
 
 The dataset contains transactional sales information from Bright Coffee Shop.
 
-### Dataset Size
+### Dataset Summary
 
-* **149,116 transactions**
-* **15 analytical fields**
-* **3 store locations**
-* **29 product types**
-* **6 months of sales data**
-* **Period:** January 2023 – June 2023
+* 📊 **149,116 transactions**
+* 📅 **Analysis period: January 2023 – June 2023**
+* 🏪 **3 store locations**
+* ☕ **Multiple product types and categories**
+* 📈 Sales, revenue, product, store, and time-based data
 
-### Key Columns
+### Key Data Fields
 
-| Column                   | Description                            |
-| ------------------------ | -------------------------------------- |
-| `transaction_id`         | Unique identifier for each transaction |
-| `date`                   | Transaction date                       |
-| `month`                  | Transaction month                      |
-| `month_name`             | Month name                             |
-| `day_name`               | Day of the week                        |
-| `store`                  | Coffee shop location                   |
-| `product_type`           | Product purchased                      |
-| `units_sold`             | Quantity sold                          |
-| `revenue`                | Revenue generated                      |
-| `hour`                   | Hour of transaction                    |
-| `minute`                 | Minute of transaction                  |
-| `thirty_minute_interval` | 30-minute purchasing interval          |
-| `category`               | Product category                       |
-| `store_hour`             | Combined store and hour dimension      |
-| `category_hour`          | Combined category and hour dimension   |
+| Field            | Description                            |
+| ---------------- | -------------------------------------- |
+| Transaction ID   | Unique identifier for each transaction |
+| Transaction Date | Date of purchase                       |
+| Month            | Month of transaction                   |
+| Day Name         | Day of the week                        |
+| Store Location   | Coffee shop location                   |
+| Product          | Product purchased                      |
+| Product Category | Product grouping                       |
+| Quantity         | Units purchased                        |
+| Revenue          | Sales revenue generated                |
+| Transaction Time | Time of purchase                       |
+| Hour             | Hourly purchasing pattern              |
+| Time Interval    | Customer demand by time period         |
+
+The dataset provides sufficient detail to analyse performance across **time, location, product, and customer purchasing behaviour**.
 
 ---
 
-# 🛠️ Tools & Skills Demonstrated
+# 🛠️ Tools & Technologies
 
-This project demonstrates practical data analyst skills across the complete analytics workflow.
+This project demonstrates the ability to work across multiple analytics and business intelligence platforms.
 
-### 📊 Microsoft Excel
-
-* Data cleaning and preparation
-* Data validation
-* Pivot tables
-* Pivot charts
-* KPI calculations
-* Interactive dashboard development
-* Business storytelling
-
-### 📈 Data Analytics
-
-* Exploratory Data Analysis (EDA)
-* Revenue analysis
-* Trend analysis
-* Product performance analysis
-* Store performance comparison
-* Time-based analysis
-* Business recommendations
-
-### 🧠 Business Intelligence
-
-The dashboard was designed specifically for executive decision-making rather than simply displaying charts. Each dashboard page answers a specific business question.
+| Tool               | Purpose                                                                  |
+| ------------------ | ------------------------------------------------------------------------ |
+| 🟢 Microsoft Excel | Data preparation, analysis, PivotTables, KPIs, and dashboard development |
+| 🔵 SQL             | Data exploration, querying, and business analysis                        |
+| 🟡 Power BI        | Interactive business intelligence reporting                              |
+| 🌐 Looker Studio   | Web-based dashboarding and stakeholder reporting                         |
+| ✨ Lovable          | Modern interactive analytics and data storytelling                       |
+| 🎤 PowerPoint      | Executive communication and presentation of recommendations              |
+| 🐙 GitHub          | Project documentation and portfolio management                           |
 
 ---
 
-# 📊 Dashboard Structure
+# 🔍 Analytics Workflow
 
-## 1️⃣ Executive Overview
+This project followed a structured data analytics process:
 
-The Executive Overview provides a high-level view of overall business performance.
+### 1️⃣ Define the Business Problem
 
-Key areas include:
+Understand the questions and decisions that the business and executive team need to address.
 
-* Total Revenue
-* Total Units Sold
-* Revenue Growth
-* Store Performance
+⬇️
+
+### 2️⃣ Understand & Prepare the Data
+
+Review the dataset, identify relevant fields, check data quality, and prepare the data for analysis.
+
+⬇️
+
+### 3️⃣ Explore the Data
+
+Analyse revenue, sales volume, stores, products, categories, and time-based customer behaviour.
+
+⬇️
+
+### 4️⃣ Identify Insights
+
+Look beyond the numbers to identify trends, patterns, opportunities, and potential business risks.
+
+⬇️
+
+### 5️⃣ Build Interactive Dashboards
+
+Develop dashboards using multiple platforms to make insights accessible to different stakeholders.
+
+⬇️
+
+### 6️⃣ Communicate Recommendations
+
+Present the findings through executive storytelling and actionable recommendations.
+
+---
+
+# 🌐 Dashboard & Deliverables Portfolio
+
+The same Bright Coffee business case was communicated through multiple analytical deliverables. Each platform serves a different purpose while supporting the same business questions.
+
+## 📊 Microsoft Excel Dashboard
+
+The Excel dashboard provides an interactive view of business performance using KPI cards, PivotTables, charts, and filters.
+
+### Key Analysis Areas
+
+* Total Revenue and Sales KPIs
 * Monthly Revenue Trends
-* Key Performance Indicators (KPIs)
+* Store Performance
+* Product and Category Performance
+* Customer Purchasing Patterns
+* Peak Sales Periods
 
-🎯 **Business Question:**
+🎯 **Best for:** Accessible business reporting and exploratory analysis.
 
-> How is the business performing overall, and where should management focus?
-
----
-
-## 2️⃣ Product Performance
-
-This dashboard investigates the products and categories driving business performance.
-
-Key analysis areas include:
-
-* Revenue by Product Category
-* Product Performance
-* Units Sold
-* Revenue versus Volume
-* Category Performance by Month
-
-🎯 **Business Question:**
-
-> Which products generate the most value, and which products drive customer demand?
+📁 **Location:** `Excel_Dashboard/`
 
 ---
 
-## 3️⃣ Time & Operations
+## 📈 Power BI Dashboard
 
-This dashboard focuses on customer purchasing behaviour and operational demand.
-
-Key analysis areas include:
-
-* Sales by Hour
-* Peak Purchasing Windows
-* Slow Periods
-* Customer Demand Patterns
-* Operational Opportunities
-
-🎯 **Business Question:**
-
-> When do customers buy, and how can the business optimise staffing and inventory?
-
----# 🌐 Analytics Dashboard Portfolio
-
-This project demonstrates how the same Bright Coffee business data can be transformed into insights across multiple analytics and business intelligence platforms.
-
-Each deliverable was designed for a specific purpose while maintaining a consistent focus on answering key CEO and business performance questions.
-
-## 📊 1. Microsoft Excel Dashboard
-
-The Excel Dashboard provides an interactive and accessible view of Bright Coffee's business performance.
+The Power BI dashboard provides a more advanced and interactive business intelligence experience.
 
 ### Key Features
 
-* Executive KPI cards
-* Revenue and sales trends
-* Store performance analysis
-* Product and category analysis
-* Customer purchasing patterns
-* Interactive filters and slicers
-
-🎯 **Best for:** Quick business reporting and stakeholder analysis.
-
-📁 **View the dashboard:** [`Excel_Dashboard`](./Excel_Dashboard/)
-
----
-
-## 📈 2. Power BI Dashboard
-
-The Power BI dashboard provides a more advanced business intelligence experience with interactive visualisations and dynamic exploration.
-
-### Key Features
-
-* Interactive report pages
-* Dynamic filtering
+* Interactive filtering
+* Dynamic KPIs
 * Drill-down analysis
-* Executive KPIs
 * Store and product comparisons
-* Time-based performance analysis
+* Trend analysis
+* Executive reporting views
 
-🎯 **Best for:** Business intelligence reporting and interactive decision-making.
+🎯 **Best for:** Interactive business intelligence and deeper stakeholder exploration.
 
-📁 **View the Power BI project:** [`PowerBI_Dashboard`](./PowerBI_Dashboard/)
+📁 **Location:** `PowerBI_Dashboard/`
 
 ---
 
-## 🌐 3. Looker Studio Dashboard
+## 🌐 Looker Studio Dashboard
 
-The Looker Studio dashboard provides a web-based reporting experience that allows stakeholders to explore Bright Coffee's performance through interactive visualisations.
+The Looker Studio dashboard provides a shareable, web-based reporting experience for exploring business performance.
 
 ### Key Features
 
-* Web-based interactive reporting
+* Interactive reporting
+* Web-based access
+* Dynamic filters
 * Performance monitoring
-* Revenue and sales analysis
-* Flexible stakeholder access
-* Interactive filters
+* Stakeholder-friendly visualisations
 
-🎯 **Best for:** Sharing interactive reports with business stakeholders.
+🎯 **Best for:** Sharing insights with stakeholders through the web.
 
-🔗 **View the interactive dashboard:** Add your Looker Studio dashboard link here.
+🔗 **Live Dashboard:** Add your Looker Studio link here.
 
 ---
 
-## ✨ 4. Lovable Interactive Dashboard
+## ✨ Lovable Analytics Experience
 
-The Lovable dashboard demonstrates how data analytics can be combined with modern application design to create an engaging and user-friendly analytics experience.
+The Lovable dashboard demonstrates how data analytics can be combined with modern application design and intuitive user experiences.
 
 ### Key Features
 
-* Modern interactive interface
+* Modern dashboard interface
+* Interactive data exploration
 * Executive-focused storytelling
-* Dynamic data exploration
 * User-friendly navigation
-* Business performance insights
+* Insight-driven design
 
-🎯 **Best for:** Demonstrating modern analytics, product thinking, and data storytelling.
+🎯 **Best for:** Demonstrating data storytelling, analytics thinking, and modern digital product skills.
 
-🔗 **View the live dashboard:** Add your Lovable dashboard link here.
+🔗 **Live Dashboard:** Add your Lovable link here.
 
 ---
 
-## 🎤 5. CEO Executive Presentation
+## 🎤 CEO Executive Presentation
 
-The CEO Presentation translates the data analysis into a concise executive narrative.
+The CEO presentation brings the analytical findings together into a concise executive narrative.
 
 The presentation focuses on:
 
-* Business performance
-* Key trends
-* Revenue drivers
-* Risks and opportunities
+* Overall business performance
+* Revenue and growth trends
+* Key business drivers
+* Store and product performance
+* Opportunities and risks
 * Strategic recommendations
 * Recommended next actions
 
 🎯 **Best for:** Executive communication and data-driven decision-making.
 
-📁 **View the presentation:** [`Presentation`](./Presentation/)
+📁 **Location:** `Presentation/`
 
 ---
 
-# 🧭 From Data to Decision
+# 💡 Key Business Insights
 
-This project demonstrates the complete analytics journey:
+The analysis identified several important patterns in Bright Coffee Shop's performance.
+
+## 💰 Revenue Performance
+
+Bright Coffee generated approximately **$698.8K in revenue** during the six-month analysis period, demonstrating strong transaction activity and providing a solid foundation for growth analysis.
+
+---
+
+## 📈 Business Growth Trend
+
+Revenue increased significantly over the analysis period, with stronger performance in the later months.
+
+This suggests an opportunity to investigate the underlying drivers of growth and identify successful strategies that can be repeated or scaled.
+
+**Business Question:**
+
+> What changed during the high-growth months, and how can the business sustain this momentum?
+
+---
+
+## 🏪 Store Performance
+
+Performance across the three store locations was relatively balanced, indicating that revenue is not dependent on a single location.
+
+This provides an opportunity to benchmark the strongest-performing store and identify operational practices that could be replicated across other locations.
+
+---
+
+## ☕ Product & Category Performance
+
+Coffee and other high-performing beverage categories represent important revenue drivers for the business.
+
+Understanding the relationship between **sales volume and revenue contribution** can help management prioritise products, promotions, inventory, and upselling opportunities.
+
+---
+
+## 🕒 Customer Purchasing Patterns
+
+Customer purchasing behaviour is concentrated around key periods of the day, particularly during busy morning hours.
+
+This insight can support better decisions around:
+
+* Staff scheduling
+* Inventory preparation
+* Product availability
+* Customer service
+* Peak-period promotions
+
+---
+
+# 🚀 Strategic Recommendations
+
+Based on the analysis, the following strategic actions are recommended:
+
+### 1️⃣ Optimise Peak-Hour Operations
+
+Ensure sufficient staffing and inventory are available during the busiest customer purchasing periods to reduce queues and minimise lost sales opportunities.
+
+### 2️⃣ Protect and Grow High-Performing Categories
+
+Prioritise inventory availability and targeted promotions for products and categories that make the strongest contribution to revenue.
+
+### 3️⃣ Replicate Successful Store Practices
+
+Benchmark the strongest-performing store and investigate whether successful operating practices can be adopted across other locations.
+
+### 4️⃣ Investigate Growth Drivers
+
+Conduct further analysis into the factors driving strong performance during the later months, including customer demand, product mix, promotions, and operational changes.
+
+### 5️⃣ Create Upselling Opportunities
+
+Use high-traffic periods to promote complementary products and increase the average value of customer purchases.
+
+> **Key takeaway:** The greatest value of analytics comes from turning insights into actions that improve business outcomes.
+
+---
+
+# 📈 From Data to Decision
+
+This project demonstrates the complete journey from raw data to executive decision-making:
 
 ```text
                     ┌──────────────────────┐
-                    │     RAW DATA         │
-                    │  Bright Coffee Sales │
+                    │       RAW DATA       │
+                    │ Bright Coffee Sales  │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │   DATA PREPARATION   │
+                    │ Cleaning & Validation│
                     └──────────┬───────────┘
                                │
                                ▼
@@ -354,268 +400,120 @@ This project demonstrates the complete analytics journey:
                                │
                                ▼
                     ┌──────────────────────┐
-                    │  ✨ LOVABLE APP      │
-                    │ Modern Data Experience│
+                    │   ✨ LOVABLE APP     │
+                    │ Interactive Analytics│
                     └──────────┬───────────┘
                                │
                                ▼
                     ┌──────────────────────┐
-                    │ 🎤 CEO PRESENTATION  │
-                    │ Insights → Decisions │
+                    │ 🎤 EXECUTIVE STORY   │
+                    │ Presentation & Action│
                     └──────────────────────┘
 ```
 
-> **The goal is not simply to create dashboards. The goal is to transform data into insights and insights into business decisions.**
-
-
-# 💡 Key Business Insights
-
-## 💰 Strong Overall Revenue Performance
-
-Bright Coffee generated approximately **$698.8K in total revenue** from more than **214K units sold** during the six-month analysis period.
-
-This demonstrates a high transaction volume and provides a strong foundation for analysing the drivers of business growth.
+> **The objective is not simply to build dashboards—it is to transform data into insights and insights into better decisions.**
 
 ---
 
-## 📈 Revenue Increased Significantly Over Time
-
-Revenue performance showed a strong upward trend across the analysis period.
-
-The strongest month was **June**, generating approximately **$166.5K in revenue**, compared with approximately **$76.1K in February**, the lowest-performing month.
-
-### 📌 Business Implication
-
-Management should investigate the factors behind the significant growth in the later months and identify whether the increase was driven by:
-
-* Higher customer traffic
-* Seasonal demand
-* Product mix
-* Marketing activity
-* Store performance
-
-Understanding these drivers can help the business replicate successful strategies.
-
----
-
-## 🏪 Store Performance Is Relatively Balanced
-
-The three store locations generated relatively similar levels of revenue:
-
-* **Hell's Kitchen:** ~$236.5K
-* **Astoria:** ~$232.2K
-* **Lower Manhattan:** ~$230.1K
-
-### 📌 Business Implication
-
-No single store is overwhelmingly responsible for company performance. This indicates a relatively balanced store portfolio.
-
-However, Hell's Kitchen represents the strongest opportunity to study successful operating practices and potentially apply them across other locations.
-
----
-
-## ☕ Coffee Is the Largest Revenue Driver
-
-Coffee generated approximately **$275.5K in revenue**, making it the strongest-performing category.
-
-Tea was the second-largest category, generating approximately **$207.6K**.
-
-### 📌 Business Implication
-
-Coffee and Tea should remain strategic priorities for:
-
-* Inventory management
-* Product availability
-* Marketing campaigns
-* Upselling opportunities
-* Customer loyalty initiatives
-
----
-
-## 🕒 Morning Hours Are the Most Important Sales Window
-
-Customer purchasing activity is strongest during the morning period.
-
-The highest revenue-generating hours include:
-
-* **10:00**
-* **09:00**
-* **08:00**
-
-### 📌 Business Implication
-
-Morning operations are critical to business success. Management should ensure:
-
-* Adequate staffing during peak hours
-* High product availability
-* Fast service and queue management
-* Sufficient inventory before peak demand begins
-
----
-
-# 🚀 Strategic Recommendations
-
-Based on the analysis, I recommend the following actions:
-
-### 1. Optimise Morning Operations
-
-Increase staffing and product availability during the morning peak period to improve customer experience and reduce potential lost sales.
-
-### 2. Focus Marketing on High-Value Categories
-
-Develop promotions and loyalty campaigns around Coffee and Tea, the company's strongest revenue-generating categories.
-
-### 3. Replicate Best Practices Across Stores
-
-Analyse the operating model of Hell's Kitchen and identify practices that can be applied to Astoria and Lower Manhattan.
-
-### 4. Investigate Revenue Growth Drivers
-
-Conduct deeper analysis into the strong revenue growth between February and June to determine what caused the improvement.
-
-### 5. Create Upselling Opportunities
-
-Use high-traffic periods to promote complementary products, such as food items or premium beverages.
-
----
-
-# 📈 CEO Dashboard Storytelling Framework
-
-The dashboard follows a structured executive storytelling approach:
+# 📁 Project Structure
 
 ```text
-        ┌─────────────────────┐
-        │   BUSINESS PULSE    │
-        │ Revenue • Units • KPIs
-        └──────────┬──────────┘
-                   │
-                   ▼
-        ┌─────────────────────┐
-        │       GROWTH        │
-        │ Monthly Trends      │
-        └──────────┬──────────┘
-                   │
-                   ▼
-        ┌─────────────────────┐
-        │  BUSINESS DRIVERS   │
-        │ Stores • Products   │
-        └──────────┬──────────┘
-                   │
-                   ▼
-        ┌─────────────────────┐
-        │      ACTION         │
-        │ Operations • Strategy
-        └─────────────────────┘
+Bright-Coffee-Shop-Analytics/
+│
+├── README.md
+│
+├── Data/
+│   └── Bright_Coffee_Dataset.xlsx
+│
+├── Excel_Dashboard/
+│   └── Bright_Coffee_CEO_Dashboard.xlsx
+│
+├── PowerBI_Dashboard/
+│   └── Bright_Coffee_Dashboard.pbix
+│
+├── Looker_Studio/
+│   └── Dashboard_Link.txt
+│
+├── Lovable_Dashboard/
+│   └── Dashboard_Link.txt
+│
+├── Presentation/
+│   └── Bright_Coffee_Executive_Presentation.pptx
+│
+├── SQL/
+│   └── Bright_Coffee_Analysis.sql
+│
+└── Images/
+    ├── Excel_Dashboard.png
+    ├── PowerBI_Dashboard.png
+    ├── Looker_Studio_Dashboard.png
+    └── Lovable_Dashboard.png
 ```
 
-This approach ensures that the dashboard does not simply describe what happened—it helps leadership understand **why it happened and what to do next**.
+> 📌 The folder names can be adjusted to match the exact files in your GitHub repository.
 
 ---
 
-# 📸 Dashboard Preview
+# 🧠 Skills Demonstrated
 
-> 📌 Add screenshots of your Excel dashboard to the `/Images` folder and link them below.
+This project demonstrates practical skills across the complete data analytics lifecycle.
 
-### Executive Overview
+### 📊 Data Analysis
 
-![Executive Dashboard](Images/executive-overview.png)
+* Exploratory Data Analysis (EDA)
+* Trend Analysis
+* Revenue Analysis
+* Product Performance Analysis
+* Store Performance Analysis
+* Time-Based Analysis
 
-### Product Performance
+### 📈 Data Visualisation
 
-![Product Performance](Images/product-performance.png)
+* Dashboard Design
+* KPI Development
+* Interactive Reporting
+* Data Storytelling
+* Executive Reporting
 
-### Time & Operations
+### 💼 Business Skills
 
-![Time and Operations](Images/time-operations.png)
-
----
-
-# 📌 Key KPIs
-
-| KPI                 | Business Purpose                       |
-| ------------------- | -------------------------------------- |
-| Total Revenue       | Measures overall financial performance |
-| Total Units Sold    | Measures sales volume                  |
-| Revenue by Store    | Compares location performance          |
-| Revenue by Category | Identifies key business drivers        |
-| Monthly Revenue     | Tracks growth trends                   |
-| Revenue by Hour     | Identifies peak operational periods    |
-
----
-
-# 🔍 Analytical Approach
-
-The project followed a structured analytics workflow:
-
-### 1. Understand the Business Problem
-
-Identify the questions and decisions the CEO needs to make.
-
-### 2. Explore the Data
-
-Review the dataset structure, transaction volume, dates, stores, products, and potential data quality issues.
-
-### 3. Prepare the Data
-
-Create analytical fields and ensure the data is ready for reporting.
-
-### 4. Analyse Business Performance
-
-Investigate revenue, sales volume, products, stores, and customer purchasing patterns.
-
-### 5. Build the Dashboard
-
-Design an executive-friendly dashboard with clear KPIs and meaningful visualisations.
-
-### 6. Generate Recommendations
-
-Translate analytical findings into practical business actions.
+* Translating Business Problems into Analytical Questions
+* Identifying Business Drivers
+* Developing Data-Driven Recommendations
+* Executive Communication
+* Stakeholder-Focused Analysis
 
 ---
 
-# 🧠 What I Learned
-
-Through this project, I strengthened my ability to:
-
-* Translate business questions into analytical questions
-* Work with large transactional datasets
-* Identify meaningful KPIs
-* Design dashboards for executive audiences
-* Transform raw data into business insights
-* Communicate recommendations using data storytelling
-
----
-
-# 🚀 Future Improvements
+# 🔮 Future Improvements
 
 Future versions of this project could include:
 
-* SQL-based data analysis
-* Power BI dashboard development
-* Automated data refreshes
-* Profit and margin analysis
-* Customer segmentation
-* Sales forecasting
-* Store-level benchmarking
-* Machine learning demand forecasting
+* 🔄 Automated data refreshes
+* 📈 Sales forecasting
+* 👥 Customer segmentation
+* 💰 Profit and margin analysis
+* 📦 Inventory optimisation
+* 🏪 Advanced store benchmarking
+* 🤖 Predictive analytics
+* ☁️ Cloud-based data pipelines
 
 ---
 
-# 👩‍💻 Author
+# 👩‍💻 About the Analyst
 
-**Data Analyst Portfolio Project**
+I am building a practical data analytics portfolio focused on transforming complex datasets into clear, actionable business insights.
 
-This project was created as part of my practical Data Analytics portfolio to demonstrate my ability to analyse business data, develop dashboards, and communicate insights to decision-makers.
+This project demonstrates my ability to:
 
-### 📫 Connect With Me
+> **Understand the business problem → Analyse the data → Build dashboards → Generate insights → Communicate recommendations**
 
-* **GitHub:** Add your GitHub profile link here
-* **LinkedIn:** Add your LinkedIn profile link here
+I am passionate about using **data, analytics, and technology** to help organisations make smarter decisions.
 
 ---
 
-# ⭐ If You Like This Project
+## ⭐ If You Found This Project Interesting
 
-If you found this project interesting, please consider giving the repository a ⭐.
+If you found this project useful or interesting, feel free to explore the dashboards and project files.
 
-Feedback and collaboration are always welcome!
+⭐ **Thank you for visiting my Bright Coffee Shop Analytics project!**
