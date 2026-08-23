@@ -14,7 +14,28 @@ Using Excel, data analysis techniques, and interactive dashboard design, I devel
 
 > **Performance → Growth → Business Drivers → Action**
 
----
+---# 📑 Table of Contents
+
+* [📊 Project Overview](#-project-overview)
+* [🎯 Business Objective](#-business-objective)
+* [📁 Project Structure](#-project-structure)
+* [📂 Dataset Overview](#-dataset-overview)
+* [🛠️ Tools & Skills Demonstrated](#️-tools--skills-demonstrated)
+* [📊 Dashboard Structure](#-dashboard-structure)
+
+  * [1️⃣ Executive Overview](#1️⃣-executive-overview)
+  * [2️⃣ Product Performance](#2️⃣-product-performance)
+  * [3️⃣ Time & Operations](#3️⃣-time--operations)
+* [💡 Key Business Insights](#-key-business-insights)
+* [🚀 Strategic Recommendations](#-strategic-recommendations)
+* [📈 CEO Dashboard Storytelling Framework](#-ceo-dashboard-storytelling-framework)
+* [📸 Dashboard Preview](#-dashboard-preview)
+* [📌 Key KPIs](#-key-kpis)
+* [🔍 Analytical Approach](#-analytical-approach)
+* [🧠 What I Learned](#-what-i-learned)
+* [🚀 Future Improvements](#-future-improvements)
+* [👩‍💻 Author](#-author)
+
 
 ## 🎯 Business Objective
 
