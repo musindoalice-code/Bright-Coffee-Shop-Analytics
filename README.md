@@ -2,6 +2,14 @@
 This project analyses Bright Coffee Shop's transactional sales data to transform raw business data into actionable insights for executive decision-making
 # ☕ Bright Coffee Shop | CEO Sales & Performance Analytics
 
+| Deliverable              | Platform        | Access                    |
+| ------------------------ | --------------- | ------------------------- |
+| 📊 Executive Dashboard   | Microsoft Excel | 📁 View in Repository     |
+| 📈 Interactive Dashboard | Power BI        | 🔗 Add Power BI link      |
+| 🌐 Web Dashboard         | Looker Studio   | 🔗 Add Looker Studio link |
+| ✨ Analytics App          | Lovable         | 🔗 Add Lovable link       |
+| 🎤 Executive Summary     | PowerPoint      | 📁 View Presentation      |
+
 ## 📊 Executive Dashboard & Business Intelligence Project
 
 ### 🔗 Project Overview
@@ -54,28 +62,49 @@ The final output is an interactive CEO dashboard designed to support faster and 
 
 ---
 
-# 📁 Project Structure
+# 📁 Bright Coffee Shop Analytics: From Raw Data to CEO Insights
+☕ Bright Coffee Shop Analytics
 
-```text
-Bright-Coffee-Shop-CEO-Analytics/
+| Deliverable           | Purpose                                |
+| --------------------- | -------------------------------------- |
+| 📊 Excel Dashboard    | Interactive business analysis          |
+| 📈 Power BI Dashboard | Advanced BI reporting                  |
+| 🌐 Looker Studio      | Web-based interactive reporting        |
+| ✨ Lovable Dashboard   | Modern analytics experience            |
+| 🎤 CEO Presentation   | Executive insights and recommendations |
+
+
+A comprehensive end-to-end data analytics project analysing sales performance and delivering insights to support executive decision-making.
 │
-├── 📊 Bright_Coffee_CEO_Dashboard.xlsx
+├── 📄 README.md
 │
-├── 📁 Data/
-│   └── Bright Coffee transactional dataset
+├── 📁 Data
+│   └── Bright_Coffee_Dataset.xlsx
 │
-├── 📁 Dashboard/
-│   ├── Executive Overview
-│   ├── Product Performance
-│   └── Time & Operations
+├── 📁 Excel_Dashboard
+│   └── Bright_Coffee_CEO_Dashboard.xlsx
 │
-├── 📁 Images/
-│   └── Dashboard screenshots
+├── 📁 PowerBI_Dashboard
+│   └── Bright_Coffee_Dashboard.pbix
 │
-├── 📁 SQL/
-│   └── SQL queries and business analysis
+├── 📁 Looker_Studio
+│   └── README.md or Dashboard_Link.txt
 │
-└── README.md
+├── 📁 Lovable_Dashboard
+│   └── README.md or Dashboard_Link.txt
+│
+├── 📁 Presentation
+│   └── Bright_Coffee_CEO_Presentation.pptx
+│
+├── 📁 SQL
+│   └── Bright_Coffee_Analysis.sql
+│
+└── 📁 Images
+    ├── Excel_Dashboard.png
+    ├── PowerBI_Dashboard.png
+    ├── Looker_Studio_Dashboard.png
+    ├── Lovable_Dashboard.png
+    └── CEO_Presentation.png
 ```
 
 ---
@@ -200,7 +229,144 @@ Key analysis areas include:
 
 > When do customers buy, and how can the business optimise staffing and inventory?
 
+---# 🌐 Analytics Dashboard Portfolio
+
+This project demonstrates how the same Bright Coffee business data can be transformed into insights across multiple analytics and business intelligence platforms.
+
+Each deliverable was designed for a specific purpose while maintaining a consistent focus on answering key CEO and business performance questions.
+
+## 📊 1. Microsoft Excel Dashboard
+
+The Excel Dashboard provides an interactive and accessible view of Bright Coffee's business performance.
+
+### Key Features
+
+* Executive KPI cards
+* Revenue and sales trends
+* Store performance analysis
+* Product and category analysis
+* Customer purchasing patterns
+* Interactive filters and slicers
+
+🎯 **Best for:** Quick business reporting and stakeholder analysis.
+
+📁 **View the dashboard:** [`Excel_Dashboard`](./Excel_Dashboard/)
+
 ---
+
+## 📈 2. Power BI Dashboard
+
+The Power BI dashboard provides a more advanced business intelligence experience with interactive visualisations and dynamic exploration.
+
+### Key Features
+
+* Interactive report pages
+* Dynamic filtering
+* Drill-down analysis
+* Executive KPIs
+* Store and product comparisons
+* Time-based performance analysis
+
+🎯 **Best for:** Business intelligence reporting and interactive decision-making.
+
+📁 **View the Power BI project:** [`PowerBI_Dashboard`](./PowerBI_Dashboard/)
+
+---
+
+## 🌐 3. Looker Studio Dashboard
+
+The Looker Studio dashboard provides a web-based reporting experience that allows stakeholders to explore Bright Coffee's performance through interactive visualisations.
+
+### Key Features
+
+* Web-based interactive reporting
+* Performance monitoring
+* Revenue and sales analysis
+* Flexible stakeholder access
+* Interactive filters
+
+🎯 **Best for:** Sharing interactive reports with business stakeholders.
+
+🔗 **View the interactive dashboard:** Add your Looker Studio dashboard link here.
+
+---
+
+## ✨ 4. Lovable Interactive Dashboard
+
+The Lovable dashboard demonstrates how data analytics can be combined with modern application design to create an engaging and user-friendly analytics experience.
+
+### Key Features
+
+* Modern interactive interface
+* Executive-focused storytelling
+* Dynamic data exploration
+* User-friendly navigation
+* Business performance insights
+
+🎯 **Best for:** Demonstrating modern analytics, product thinking, and data storytelling.
+
+🔗 **View the live dashboard:** Add your Lovable dashboard link here.
+
+---
+
+## 🎤 5. CEO Executive Presentation
+
+The CEO Presentation translates the data analysis into a concise executive narrative.
+
+The presentation focuses on:
+
+* Business performance
+* Key trends
+* Revenue drivers
+* Risks and opportunities
+* Strategic recommendations
+* Recommended next actions
+
+🎯 **Best for:** Executive communication and data-driven decision-making.
+
+📁 **View the presentation:** [`Presentation`](./Presentation/)
+
+---
+
+# 🧭 From Data to Decision
+
+This project demonstrates the complete analytics journey:
+
+```text
+                    ┌──────────────────────┐
+                    │     RAW DATA         │
+                    │  Bright Coffee Sales │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │   DATA ANALYSIS      │
+                    │ SQL • Excel • EDA    │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+        ┌──────────────────────┼──────────────────────┐
+        ▼                      ▼                      ▼
+   📊 EXCEL               📈 POWER BI            🌐 LOOKER
+   Dashboard               Dashboard              Studio
+        │                      │                      │
+        └──────────────────────┼──────────────────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │  ✨ LOVABLE APP      │
+                    │ Modern Data Experience│
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │ 🎤 CEO PRESENTATION  │
+                    │ Insights → Decisions │
+                    └──────────────────────┘
+```
+
+> **The goal is not simply to create dashboards. The goal is to transform data into insights and insights into business decisions.**
+
 
 # 💡 Key Business Insights
 
