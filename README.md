@@ -151,7 +151,7 @@ This project demonstrates the ability to work across multiple analytics and busi
 ---
 
 # 🔍 Analytics Workflow
-
+https://miro.com/app/board/uXjVHwtkLTs=/
 This project followed a structured data analytics process:
 
 ### 1️⃣ Define the Business Problem
