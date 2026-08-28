@@ -32,8 +32,8 @@ Rather than creating a single dashboard, this project presents the analysis thro
 | ------------------------- | --------------------------- | ----------------------------------------------------- | ------------------------------- |
 | 📊 Executive Dashboard    | Microsoft Excel             | Interactive business performance analysis             | 📁 Available in this repository |
 | 📈 BI Dashboard           | Power BI                    | Advanced interactive business intelligence            | 📁 Available in this repository |
-| 🌐 Web Dashboard          | Looker Studio / Data Studio | Shareable web-based reporting                         | 🔗 Add live dashboard link      |
-| ✨ Analytics Experience    | Lovable                     | Modern interactive data storytelling                  | 🔗 Add live dashboard link      |
+| 🌐 Web Dashboard          | Looker Studio / Data Studio | Shareable web-based reporting                         | 🔗 
+| ✨ Analytics Experience    | Lovable                     | Modern interactive data storytelling                  | 🔗(https://lovable.dev/projects/0e0a00f1-39ee-45e5-916b-663caf9844ef)     |)     |
 | 🎤 Executive Presentation | PowerPoint                  | Insights and strategic recommendations for leadership | 📁 Available in this repository |
 
 > **Note:** Replace the 🔗 placeholder text with your live dashboard links once you are ready to share them publicly.
