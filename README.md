@@ -39,8 +39,8 @@ Rather than creating a single dashboard, this project presents the analysis thro
 | 📈 BI Dashboard           | Power BI                    | Advanced interactive business intelligence            | 📁 Available in this repository |
 | 🌐 Web Dashboard          | Looker Studio / Data Studio | Shareable web-based reporting                         | 🔗 
 | ✨ Analytics Experience    | Lovable                     | Modern interactive data storytelling                  | 🔗https://lovable.dev/projects/0e0a00f1-39ee-45e5-916b-663caf9844ef
-| 🎤 Executive Presentation | PowerPoint                  | Insights and strategic recommendations for leadership | 📁 Available in this repository |
-https://acrobat.adobe.com/id/urn:aaid:sc:eu:ba9706c2-fb7e-43b4-85f4-d029711fc683
+| 🎤 Executive Presentation | PowerPoint                  | Insights and strategic recommendations for leadership | https://acrobat.adobe.com/id/urn:aaid:sc:eu:ba9706c2-fb7e-43b4-85f4-d029711fc683
+
 > **Note:** Replace the 🔗 placeholder text with your live dashboard links once you are ready to share them publicly.
 
 ---
