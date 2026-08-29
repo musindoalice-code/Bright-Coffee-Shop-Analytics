@@ -1,14 +1,21 @@
-# ☕ Bright Coffee Shop Analytics
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=F5A623&height=220&section=header&text=☕%20Bright%20Coffee%20Shop&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Business%20Intelligence%20%7C%20SQL%20%7C%20Data%20Analytics&descAlignY=58&descSize=20" />
+</p>
 
-## End-to-End Sales Analytics for Executive Decision-Making
+<h1 align="center">☕ Bright Coffee Shop Analytics</h1>
 
-![Status](https://img.shields.io/badge/Status-Completed-success)
-![Excel](https://img.shields.io/badge/Excel-Analytics-green)
-![Power%20BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
-![SQL](https://img.shields.io/badge/SQL-Data%20Analysis-blue)
-![Looker%20Studio](https://img.shields.io/badge/Looker%20Studio-Dashboard-orange)
+<p align="center">
+  Turning Coffee Shop Data into Actionable Business Insights 📊
+</p>
 
-> **Turning transactional sales data into actionable insights, interactive dashboards, and strategic recommendations for business decision-making.**
+<p align="center">
+
+![SQL](https://img.shields.io/badge/SQL-Data%20Analysis-blue?style=for-the-badge&logo=postgresql&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-Analytics-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+
+</p>
 
 ---
 
