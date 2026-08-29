@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=F5A623&height=220&section=header&text=☕%20Bright%20Coffee%20Shop&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Business%20Intelligence%20%7C%20SQL%20%7C%20Data%20Analytics&descAlignY=58&descSize=20" />
-</p>
+![Bright Coffee Shop - Executive Sales Performance](./assets/banner.png)
 
 <h1 align="center">☕ Bright Coffee Shop Analytics</h1>
 
