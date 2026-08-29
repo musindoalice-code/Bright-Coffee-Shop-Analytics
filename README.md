@@ -248,7 +248,7 @@ The Looker Studio dashboard provides a shareable, web-based reporting experience
 
 🎯 **Best for:** Sharing insights with stakeholders through the web.
 
-🔗 **Live Dashboard:** Add your Looker Studio link here.
+🔗 **Live Dashboard:** 
 
 ---
 
@@ -266,7 +266,7 @@ The Lovable dashboard demonstrates how data analytics can be combined with moder
 
 🎯 **Best for:** Demonstrating data storytelling, analytics thinking, and modern digital product skills.
 
-🔗 **Live Dashboard:** Add your Lovable link here.
+🔗 **Live Dashboard:** 
 
 ---
 
