@@ -291,6 +291,7 @@ The presentation focuses on:
 ---
 
 # 💡 Key Business Insights
+https://dbc-1f555e68-384c.cloud.databricks.com/sql/dashboardsv3/01f1a5262f76128bb7a308a4b96ac530?o=7474652278053184
 
 The analysis identified several important patterns in Bright Coffee Shop's performance.
 
