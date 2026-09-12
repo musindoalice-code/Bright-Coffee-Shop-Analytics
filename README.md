@@ -1,3 +1,4 @@
+
 ![Bright Coffee Shop - Executive Sales Performance](./assets/banner.png)
 
 <h1 align="center">☕ Bright Coffee Shop Analytics</h1>
@@ -17,17 +18,50 @@
 
 ---
 
-## 📊 Project Overview
+## ☕ 30-Second Read
 
-Bright Coffee Shop Analytics is an **end-to-end data analytics project** that analyses transactional sales data to understand business performance, identify key revenue drivers, and provide actionable recommendations for executive decision-making.
+> **$698.8K in revenue. 149,116 transactions. 3 stores. 6 months. Growth accelerating in the back half.**
+> This project finds exactly which hours, stores, and products are driving that growth — and where the business is leaving revenue on the table during its own busiest periods.
 
-The project demonstrates the complete data analytics journey—from understanding the business problem and exploring the data to analysing performance, building interactive dashboards, and communicating findings to senior stakeholders.
+I took Bright Coffee Shop's raw transactional data and turned it into a full executive decision-support package — the same business story delivered five different ways (Excel, Power BI, Looker Studio, Lovable, and a CEO presentation) so any stakeholder can consume it in the format they trust most.
 
-Rather than creating a single dashboard, this project presents the analysis through multiple professional deliverables:
+---
 
-📊 **Excel Dashboard** | 📈 **Power BI Dashboard** | 🌐 **Looker Studio Dashboard** | ✨ **Lovable Analytics Experience** | 🎤 **CEO Executive Presentation**
+## 🏆 Executive Summary
 
-> **One business problem → One dataset → One analytical story → Multiple decision-making tools**
+| Metric | Result |
+|---|---|
+| 💰 Total Revenue | **$698.8K** |
+| 🧾 Total Transactions | **149,116** |
+| 🏪 Store Locations | **3** |
+| 📅 Analysis Period | **Jan 2023 – Jun 2023 (6 months)** |
+| 📈 Revenue Trend | **Accelerating** — stronger performance in later months |
+
+**Key finding:** growth is real and broad-based rather than propped up by one location, but it is concentrated in specific hours, products, and categories — which means the business can act on it directly instead of waiting to see if growth continues.
+
+---
+
+## 💡 Key Insights
+
+1. **Revenue is growing, and the growth is accelerating.** The back half of the analysis period outperformed the front half — a signal worth diagnosing and repeating, not just celebrating.
+2. **No single store is carrying the business.** Performance across all three locations is relatively balanced, which de-risks the business but also means the strongest store's practices are a template the other two don't yet have.
+3. **A small set of products drives disproportionate revenue.** Coffee and a handful of other categories are the clear commercial engine — the lever for inventory, promotions, and upselling decisions.
+4. **Demand is concentrated in predictable peak hours**, especially busy morning periods — a scheduling and inventory problem as much as a sales one.
+5. **The same data, told five ways, holds up.** Excel, Power BI, Looker Studio, Lovable, and the executive deck all point to the same conclusions — the insights aren't an artifact of one tool's view.
+
+---
+
+## 🚀 Strategic Recommendations
+
+| # | Recommendation | Expected business impact |
+|---|---|---|
+| 1 | **Optimise peak-hour operations** — staff and stock ahead of the busiest purchasing windows | Fewer queues and lost sales during the highest-demand moments |
+| 2 | **Protect and grow high-performing categories** — prioritise inventory and promotions on the strongest revenue drivers | Compounds the revenue the business already knows works |
+| 3 | **Replicate the top-performing store's practices** across the other two locations | Raises the floor across the whole business, not just the ceiling |
+| 4 | **Investigate what specifically drove the later-month growth** (demand, product mix, promotions, or operations) | Turns a one-off good trend into a repeatable playbook |
+| 5 | **Use peak-traffic windows to upsell complementary products** | Increases average transaction value without needing more foot traffic |
+
+**Bottom line for the business:** the growth is real, but right now it's something that happened rather than something being managed. Pinning it to specific hours, stores, and products turns it into a lever leadership can pull on purpose.
 
 ---
 
@@ -37,28 +71,47 @@ Rather than creating a single dashboard, this project presents the analysis thro
 | ------------------------- | --------------------------- | ----------------------------------------------------- | ------------------------------- |
 | 📊 Executive Dashboard    | Microsoft Excel             | Interactive business performance analysis             | 📁 Available in this repository |
 | 📈 BI Dashboard           | Power BI                    | Advanced interactive business intelligence            | 📁 Available in this repository |
-| 🌐 Web Dashboard          | Looker Studio / Data Studio | Shareable web-based reporting                         | 🔗 
-| ✨ Analytics Experience    | Lovable                     | Modern interactive data storytelling                  | 🔗https://lovable.dev/projects/0e0a00f1-39ee-45e5-916b-663caf9844ef
-| 🎤 Executive Presentation | PowerPoint                  | Insights and strategic recommendations for leadership | https://acrobat.adobe.com/id/urn:aaid:sc:eu:ba9706c2-fb7e-43b4-85f4-d029711fc683
+| 🧱 Live Dashboard         | Databricks                  | Reproducible SQL-based analysis, hosted live           | 🔗 [Open dashboard](https://dbc-1f555e68-384c.cloud.databricks.com/sql/dashboardsv3/01f1a5262f76128bb7a308a4b96ac530?o=7474652278053184) |
+| 🌐 Web Dashboard          | Looker Studio / Data Studio | Shareable web-based reporting                         | 🔗 `[Add your published Looker Studio link here]` |
+| ✨ Analytics Experience    | Lovable                     | Modern interactive data storytelling                  | 🔗 [Open experience](https://lovable.dev/projects/0e0a00f1-39ee-45e5-916b-663caf9844ef) |
+| 🎤 Executive Presentation | PowerPoint                  | Insights and strategic recommendations for leadership | 🔗 [Open presentation](https://acrobat.adobe.com/id/urn:aaid:sc:eu:ba9706c2-fb7e-43b4-85f4-d029711fc683) |
+| 🗺️ Process Board          | Miro                         | Visual analytics workflow and planning board           | 🔗 [Open board](https://miro.com/app/board/uXjVHwtkLTs=/) |
 
+> **One business problem → One dataset → One analytical story → Multiple decision-making tools**
+
+---
 
 # 📑 Table of Contents
 
-* [📊 Project Overview](#-project-overview)
+* [☕ 30-Second Read](#-30-second-read)
+* [🏆 Executive Summary](#-executive-summary)
+* [💡 Key Insights](#-key-insights)
+* [🚀 Strategic Recommendations](#-strategic-recommendations)
 * [🔗 Explore the Project](#-explore-the-project)
+* [📊 Project Overview](#-project-overview)
 * [🎯 Business Problem](#-business-problem)
 * [🎯 Executive Decision Support](#-executive-decision-support)
 * [📂 Dataset Overview](#-dataset-overview)
 * [🛠️ Tools & Technologies](#️-tools--technologies)
 * [🔍 Analytics Workflow](#-analytics-workflow)
 * [🌐 Dashboard & Deliverables Portfolio](#-dashboard--deliverables-portfolio)
-* [💡 Key Business Insights](#-key-business-insights)
-* [🚀 Strategic Recommendations](#-strategic-recommendations)
 * [📈 From Data to Decision](#-from-data-to-decision)
 * [📁 Project Structure](#-project-structure)
 * [🧠 Skills Demonstrated](#-skills-demonstrated)
 * [🔮 Future Improvements](#-future-improvements)
 * [👩‍💻 About the Analyst](#-about-the-analyst)
+
+---
+
+# 📊 Project Overview
+
+Bright Coffee Shop Analytics is an **end-to-end data analytics project** that analyses transactional sales data to understand business performance, identify key revenue drivers, and provide actionable recommendations for executive decision-making.
+
+The project demonstrates the complete data analytics journey—from understanding the business problem and exploring the data to analysing performance, building interactive dashboards, and communicating findings to senior stakeholders.
+
+Rather than creating a single dashboard, this project presents the analysis through multiple professional deliverables:
+
+📊 **Excel Dashboard** | 📈 **Power BI Dashboard** | 🌐 **Looker Studio Dashboard** | ✨ **Lovable Analytics Experience** | 🎤 **CEO Executive Presentation**
 
 ---
 
@@ -146,14 +199,14 @@ This project demonstrates the ability to work across multiple analytics and busi
 | 🔵 SQL             | Data exploration, querying, and business analysis                        |
 | 🟡 Power BI        | Interactive business intelligence reporting                              |
 | 🌐 Looker Studio   | Web-based dashboarding and stakeholder reporting                         |
-| ✨ Lovable          | Modern interactive analytics and data storytelling                       |
+| ✨ Lovable          | Modern interactive analytics and data storytelling                      |
 | 🎤 PowerPoint      | Executive communication and presentation of recommendations              |
 | 🐙 GitHub          | Project documentation and portfolio management                           |
 
 ---
 
 # 🔍 Analytics Workflow
-https://miro.com/app/board/uXjVHwtkLTs=/
+
 This project followed a structured data analytics process:
 
 ### 1️⃣ Define the Business Problem
@@ -248,7 +301,7 @@ The Looker Studio dashboard provides a shareable, web-based reporting experience
 
 🎯 **Best for:** Sharing insights with stakeholders through the web.
 
-🔗 **Live Dashboard:** 
+🔗 **Live Dashboard:** see the [Explore the Project](#-explore-the-project) table above.
 
 ---
 
@@ -266,7 +319,7 @@ The Lovable dashboard demonstrates how data analytics can be combined with moder
 
 🎯 **Best for:** Demonstrating data storytelling, analytics thinking, and modern digital product skills.
 
-🔗 **Live Dashboard:** 
+🔗 **Live Dashboard:** see the [Explore the Project](#-explore-the-project) table above.
 
 ---
 
@@ -287,87 +340,6 @@ The presentation focuses on:
 🎯 **Best for:** Executive communication and data-driven decision-making.
 
 📁 **Location:** `Presentation/`
-
----
-
-# 💡 Key Business Insights
-https://dbc-1f555e68-384c.cloud.databricks.com/sql/dashboardsv3/01f1a5262f76128bb7a308a4b96ac530?o=7474652278053184
-
-The analysis identified several important patterns in Bright Coffee Shop's performance.
-
-## 💰 Revenue Performance
-
-Bright Coffee generated approximately **$698.8K in revenue** during the six-month analysis period, demonstrating strong transaction activity and providing a solid foundation for growth analysis.
-
----
-
-## 📈 Business Growth Trend
-
-Revenue increased significantly over the analysis period, with stronger performance in the later months.
-
-This suggests an opportunity to investigate the underlying drivers of growth and identify successful strategies that can be repeated or scaled.
-
-**Business Question:**
-
-> What changed during the high-growth months, and how can the business sustain this momentum?
-
----
-
-## 🏪 Store Performance
-
-Performance across the three store locations was relatively balanced, indicating that revenue is not dependent on a single location.
-
-This provides an opportunity to benchmark the strongest-performing store and identify operational practices that could be replicated across other locations.
-
----
-
-## ☕ Product & Category Performance
-
-Coffee and other high-performing beverage categories represent important revenue drivers for the business.
-
-Understanding the relationship between **sales volume and revenue contribution** can help management prioritise products, promotions, inventory, and upselling opportunities.
-
----
-
-## 🕒 Customer Purchasing Patterns
-
-Customer purchasing behaviour is concentrated around key periods of the day, particularly during busy morning hours.
-
-This insight can support better decisions around:
-
-* Staff scheduling
-* Inventory preparation
-* Product availability
-* Customer service
-* Peak-period promotions
-
----
-
-# 🚀 Strategic Recommendations
-
-Based on the analysis, the following strategic actions are recommended:
-
-### 1️⃣ Optimise Peak-Hour Operations
-
-Ensure sufficient staffing and inventory are available during the busiest customer purchasing periods to reduce queues and minimise lost sales opportunities.
-
-### 2️⃣ Protect and Grow High-Performing Categories
-
-Prioritise inventory availability and targeted promotions for products and categories that make the strongest contribution to revenue.
-
-### 3️⃣ Replicate Successful Store Practices
-
-Benchmark the strongest-performing store and investigate whether successful operating practices can be adopted across other locations.
-
-### 4️⃣ Investigate Growth Drivers
-
-Conduct further analysis into the factors driving strong performance during the later months, including customer demand, product mix, promotions, and operational changes.
-
-### 5️⃣ Create Upselling Opportunities
-
-Use high-traffic periods to promote complementary products and increase the average value of customer purchases.
-
-> **Key takeaway:** The greatest value of analytics comes from turning insights into actions that improve business outcomes.
 
 ---
 
@@ -520,3 +492,5 @@ I am passionate about using **data, analytics, and technology** to help organisa
 If you found this project useful or interesting, feel free to explore the dashboards and project files.
 
 ⭐ **Thank you for visiting my Bright Coffee Shop Analytics project!**
+
+---
