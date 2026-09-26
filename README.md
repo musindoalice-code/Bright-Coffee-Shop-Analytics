@@ -73,7 +73,7 @@ I took Bright Coffee Shop's raw transactional data and turned it into a full exe
 | 📈 BI Dashboard           | Power BI                    | Advanced interactive business intelligence            | 📁 Available in this repository |
 | 🧱 Live Dashboard         | Databricks                  | Reproducible SQL-based analysis, hosted live           | 🔗 [Open dashboard](https://dbc-1f555e68-384c.cloud.databricks.com/sql/dashboardsv3/01f1a5262f76128bb7a308a4b96ac530?o=7474652278053184) |
 | 🌐 Web Dashboard          | Looker Studio / Data Studio | Shareable web-based reporting                         | 🔗 `[Add your published Looker Studio link here]` |
-| ✨ Analytics Experience    | Lovable                     | Modern interactive data storytelling                  | 🔗 [[Open experience]](https://github.com/musindoalice-code/Shop_Performance_Analysis/edit/main/README.md)(https://lovable.dev/projects/0e0a00f1-39ee-45e5-916b-663caf9844ef) |
+| ✨ Analytics Experience    | Lovable                     | Modern interactive data storytelling                  | 🔗 [[[Open experience]](https://github.com/musindoalice-code/Shop_Performance_Analysis/edit/main/README.md)(https://lovable.dev/projects/0e0a00f1-39ee-45e5-916b-663caf9844ef) |](https://coffee-ceo-pulse.lovable.app)
 | 🎤 Executive Presentation | PowerPoint                  | Insights and strategic recommendations for leadership | 🔗 [Open presentation](https://acrobat.adobe.com/id/urn:aaid:sc:eu:ba9706c2-fb7e-43b4-85f4-d029711fc683) |
 | 🗺️ Process Board          | Miro                         | Visual analytics workflow and planning board           | 🔗 [Open board](https://miro.com/app/board/uXjVHwtkLTs=/) |
 
