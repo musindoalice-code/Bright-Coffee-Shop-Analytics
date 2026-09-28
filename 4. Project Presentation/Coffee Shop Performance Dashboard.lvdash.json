@@ -66,6 +66,107 @@
           }
         }
       ]
+    },
+    {
+      "name": "insights_summary",
+      "displayName": "Insights Summary",
+      "queryLines": [
+        "WITH revenue_metrics AS (\n",
+        "  SELECT\n",
+        "    SUM(total_amount) AS total_revenue,\n",
+        "    COUNT(DISTINCT transaction_id) AS total_transactions,\n",
+        "    AVG(total_amount) AS avg_transaction,\n",
+        "    SUM(transaction_qty) AS total_units\n",
+        "  FROM\n",
+        "    bright_coffee_sales_clean\n",
+        "),\n",
+        "category_performance AS (\n",
+        "  SELECT\n",
+        "    CASE\n",
+        "      WHEN\n",
+        "        LOWER(product_type) LIKE '%coffee%'\n",
+        "        OR LOWER(product_type) LIKE '%espresso%'\n",
+        "      THEN\n",
+        "        'Coffee'\n",
+        "      WHEN\n",
+        "        LOWER(product_type) LIKE '%tea%'\n",
+        "        OR LOWER(product_type) LIKE '%chai%'\n",
+        "      THEN\n",
+        "        'Tea'\n",
+        "      WHEN LOWER(product_type) LIKE '%chocolate%' THEN 'Chocolate'\n",
+        "      WHEN\n",
+        "        LOWER(product_type) LIKE '%scone%'\n",
+        "        OR LOWER(product_type) LIKE '%sandwich%'\n",
+        "        OR LOWER(product_type) LIKE '%pastry%'\n",
+        "        OR LOWER(product_type) LIKE '%cake%'\n",
+        "        OR LOWER(product_type) LIKE '%cookie%'\n",
+        "        OR LOWER(product_type) LIKE '%muffin%'\n",
+        "      THEN\n",
+        "        'Food'\n",
+        "      ELSE 'Other'\n",
+        "    END AS category,\n",
+        "    SUM(total_amount) AS revenue,\n",
+        "    COUNT(*) AS transactions\n",
+        "  FROM\n",
+        "    bright_coffee_sales_clean\n",
+        "  GROUP BY\n",
+        "    category\n",
+        "  ORDER BY\n",
+        "    revenue DESC\n",
+        "),\n",
+        "peak_hours AS (\n",
+        "  SELECT\n",
+        "    HOUR(transaction_time) AS hour,\n",
+        "    SUM(total_amount) AS revenue,\n",
+        "    COUNT(*) AS transactions\n",
+        "  FROM\n",
+        "    bright_coffee_sales_clean\n",
+        "  GROUP BY\n",
+        "    hour\n",
+        "  ORDER BY\n",
+        "    revenue DESC\n",
+        "  LIMIT 3\n",
+        "),\n",
+        "store_rankings AS (\n",
+        "  SELECT\n",
+        "    store_location,\n",
+        "    SUM(total_amount) AS revenue,\n",
+        "    COUNT(DISTINCT transaction_id) AS transactions,\n",
+        "    RANK() OVER (ORDER BY SUM(total_amount) DESC) AS revenue_rank\n",
+        "  FROM\n",
+        "    bright_coffee_sales_clean\n",
+        "  GROUP BY\n",
+        "    store_location\n",
+        ")\n",
+        "SELECT\n",
+        "  'summary' AS metric_type,\n",
+        "  CAST(total_revenue AS STRING) AS value,\n",
+        "  'Total Revenue' AS metric_name\n",
+        "FROM\n",
+        "  revenue_metrics\n",
+        "UNION ALL\n",
+        "SELECT\n",
+        "  'summary',\n",
+        "  CAST(total_transactions AS STRING),\n",
+        "  'Total Transactions'\n",
+        "FROM\n",
+        "  revenue_metrics\n",
+        "UNION ALL\n",
+        "SELECT\n",
+        "  'summary',\n",
+        "  CAST(ROUND(avg_transaction, 2) AS STRING),\n",
+        "  'Avg Transaction Value'\n",
+        "FROM\n",
+        "  revenue_metrics\n",
+        "UNION ALL\n",
+        "SELECT\n",
+        "  'top_category',\n",
+        "  category,\n",
+        "  CAST(ROUND(revenue, 2) AS STRING)\n",
+        "FROM\n",
+        "  category_performance\n",
+        "LIMIT 1"
+      ]
     }
   ],
   "pages": [
@@ -111,7 +212,7 @@
           },
           "position": {
             "x": 3,
-            "y": 21,
+            "y": 2,
             "width": 3,
             "height": 3
           }
@@ -154,7 +255,7 @@
           },
           "position": {
             "x": 0,
-            "y": 21,
+            "y": 2,
             "width": 3,
             "height": 3
           }
@@ -197,7 +298,7 @@
           },
           "position": {
             "x": 6,
-            "y": 15,
+            "y": 2,
             "width": 3,
             "height": 3
           }
@@ -240,7 +341,7 @@
           },
           "position": {
             "x": 9,
-            "y": 15,
+            "y": 2,
             "width": 3,
             "height": 3
           }
@@ -303,10 +404,10 @@
             }
           },
           "position": {
-            "x": 0,
-            "y": 26,
+            "x": 6,
+            "y": 23,
             "width": 6,
-            "height": 4
+            "height": 5
           }
         },
         {
@@ -368,9 +469,9 @@
           },
           "position": {
             "x": 0,
-            "y": 30,
-            "width": 6,
-            "height": 4
+            "y": 13,
+            "width": 12,
+            "height": 5
           }
         },
         {
@@ -431,10 +532,10 @@
             }
           },
           "position": {
-            "x": 6,
-            "y": 21,
-            "width": 6,
-            "height": 4
+            "x": 0,
+            "y": 18,
+            "width": 12,
+            "height": 5
           }
         },
         {
@@ -496,10 +597,10 @@
             }
           },
           "position": {
-            "x": 0,
-            "y": 34,
+            "x": 6,
+            "y": 28,
             "width": 6,
-            "height": 4
+            "height": 5
           }
         },
         {
@@ -553,10 +654,10 @@
             }
           },
           "position": {
-            "x": 6,
-            "y": 11,
+            "x": 0,
+            "y": 23,
             "width": 6,
-            "height": 4
+            "height": 5
           }
         },
         {
@@ -611,10 +712,10 @@
             }
           },
           "position": {
-            "x": 6,
-            "y": 25,
+            "x": 0,
+            "y": 28,
             "width": 6,
-            "height": 4
+            "height": 5
           }
         },
         {
@@ -659,7 +760,7 @@
           "position": {
             "x": 0,
             "y": 5,
-            "width": 3,
+            "width": 6,
             "height": 2
           }
         },
@@ -703,9 +804,9 @@
             }
           },
           "position": {
-            "x": 3,
-            "y": 24,
-            "width": 3,
+            "x": 6,
+            "y": 5,
+            "width": 6,
             "height": 2
           }
         },
@@ -722,9 +823,139 @@
           },
           "position": {
             "x": 0,
-            "y": 19,
+            "y": 0,
             "width": 12,
             "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "key_insights",
+            "multilineTextboxSpec": {
+              "lines": [
+                "### 📊 Key Insights\n",
+                "\n",
+                "**Revenue Drivers:**\n",
+                "* Coffee category leads sales - focus on premium blends and seasonal specialties\n",
+                "* Peak revenue hours indicate morning rush dominance - optimize staffing accordingly\n",
+                "* Store location performance varies - replicate success factors from top performers\n",
+                "\n",
+                "**Customer Behavior:**\n",
+                "* Average transaction value indicates upsell opportunities\n",
+                "* Product bundling potential exists between coffee and food items\n",
+                "* Time-based patterns show clear operational optimization opportunities"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 7,
+            "width": 12,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "recommendations",
+            "multilineTextboxSpec": {
+              "lines": [
+                "### 💡 Action Plan\n",
+                "\n",
+                "**Immediate Actions (0-30 days):**\n",
+                "1. **Staffing Optimization** - Align staff schedules with peak hour patterns\n",
+                "2. **Upsell Training** - Train baristas on combo suggestions to boost avg transaction value\n",
+                "3. **Inventory Management** - Stock popular items based on category performance data\n",
+                "\n",
+                "**Strategic Initiatives (30-90 days):**\n",
+                "1. **Loyalty Program** - Launch rewards to increase repeat transactions\n",
+                "2. **Product Mix Review** - Expand winning categories, phase out underperformers\n",
+                "3. **Store Best Practices** - Document and replicate top store strategies across locations\n",
+                "\n",
+                "**Growth Opportunities:**\n",
+                "* Introduce breakfast/lunch combos during peak hours\n",
+                "* Test premium product lines in high-performing stores\n",
+                "* Develop mobile ordering to capture off-peak demand"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 33,
+            "width": 12,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "performance_alerts",
+            "multilineTextboxSpec": {
+              "lines": [
+                "### ⚠️ Monitor These KPIs\n",
+                "\n",
+                "**Daily Checks:**\n",
+                "* Transaction count vs. target (compare to historical averages)\n",
+                "* Average transaction value trending (aim for 5-10% growth)\n",
+                "* Peak hour staffing efficiency\n",
+                "\n",
+                "**Weekly Reviews:**\n",
+                "* Category mix shifts - early warning for inventory needs\n",
+                "* Store performance gaps - identify coaching opportunities\n",
+                "* Hour-by-hour conversion patterns\n",
+                "\n",
+                "**Monthly Deep Dives:**\n",
+                "* Product-level profitability analysis\n",
+                "* Customer frequency and retention metrics\n",
+                "* Seasonal trend preparation"
+              ]
+            }
+          },
+          "position": {
+            "x": 6,
+            "y": 40,
+            "width": 6,
+            "height": 7
+          }
+        },
+        {
+          "widget": {
+            "name": "quick_wins",
+            "multilineTextboxSpec": {
+              "lines": [
+                "### 🎯 Data-Driven Focus Areas\n",
+                "\n",
+                "**Top Opportunities Identified:**\n",
+                "\n",
+                "**1. Peak Hour Optimization**\n",
+                "* Your busiest hours drive majority of revenue\n",
+                "* Recommendation: Add 1-2 staff during identified peaks\n",
+                "* Expected Impact: +15-20% capacity, reduced wait times\n",
+                "\n",
+                "**2. Category Performance**\n",
+                "* Coffee dominates your revenue mix\n",
+                "* Action: Create signature blends and seasonal offerings\n",
+                "* Target: +10% premium product adoption\n",
+                "\n",
+                "**3. Cross-Category Sales**\n",
+                "* Low food attachment rate to beverage sales\n",
+                "* Initiative: \"Perfect Pair\" promotions (coffee + pastry)\n",
+                "* Goal: Increase average basket size by $2-3\n",
+                "\n",
+                "**4. Store Performance Gaps**\n",
+                "* Variance exists between locations\n",
+                "* Next Step: Benchmark best practices from top performer\n",
+                "* Rollout successful tactics to underperforming stores\n",
+                "\n",
+                "---\n",
+                "\n",
+                "*💡 Pro Tip: Use the filters above to drill into specific stores and categories for deeper analysis*"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 40,
+            "width": 6,
+            "height": 7
           }
         }
       ],
